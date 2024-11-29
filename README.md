@@ -1,3 +1,3 @@
 # Forked
 
-An ecommerce store
+c ecommerce store

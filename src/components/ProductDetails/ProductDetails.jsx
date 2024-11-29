@@ -26,6 +26,7 @@ const ProductDetails = ({ selectedProduct }) => {
           </Col>
           <Col md={6}>
             <h2>{selectedProduct?.productName}</h2>
+            <span>Found Under: {selectedProduct?.category}</span>
             <div className="rate">
               <div className="stars">
                 <i className="fa fa-star"></i>
@@ -37,8 +38,7 @@ const ProductDetails = ({ selectedProduct }) => {
               <span>{selectedProduct?.avgRating} ratings</span>
             </div>
             <div className="info">
-              <span className="price">${selectedProduct?.price}</span>
-              <span>category:{selectedProduct?.category}</span>
+              <span className="price">${selectedProduct?.price}</span>             
             </div>
             <p>{selectedProduct?.shortDesc}</p>
             <input

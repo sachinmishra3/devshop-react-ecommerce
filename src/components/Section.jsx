@@ -8,7 +8,7 @@ const Section = ({ title, bgColor, productItems }) => {
         <div className="heading">
           <h1>{title}</h1>
         </div>
-        <Row className="justify-content-center">
+        <Row className="justify-content-full">
           {productItems.map((productItem) => {
             return (
               <ProductCard

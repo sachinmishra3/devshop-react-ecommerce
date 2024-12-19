@@ -83,7 +83,7 @@ button {
   overflow: hidden;
 }
 
-.filter-bar-contianer .row {
+.filter-bar-container .row {
   flex-wrap: wrap-reverse !important;
 }
 
